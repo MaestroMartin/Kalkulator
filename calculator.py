@@ -25,7 +25,7 @@ class Calculator(QMainWindow):
         self.txt_number1.resize(200, 32)
 
         self.lbl_number2= QtWidgets.QLabel(self)
-        self.lbl_number2.setText("Number1: ")
+        self.lbl_number2.setText("Number2: ")
         self.lbl_number2.move(50, 80)
         
         self.txt_number2 = QtWidgets.QLineEdit(self)
